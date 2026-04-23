@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>SyncSlide Host</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-role="host">
+    <main class="app host-app">
+      <header class="toolbar">
+        <div>
+          <strong>Host</strong>
+          <span id="role-status" class="status">연결 중...</span>
+        </div>
+        <div class="controls">
+          <button id="prev" type="button">Prev</button>
+          <button id="next" type="button">Next</button>
+          <span id="index" class="index">0</span>
+        </div>
+      </header>
+
+      <section id="slide" class="slide"></section>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.2/lib/p5.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="140" x2="960" y2="1780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" />
+      <stop offset="1" stop-color="#0F766E" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(540 540) rotate(90) scale(640 420)">
+      <stop stop-color="#E0F2FE" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#E0F2FE" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1920" fill="#0B1120" />
+  <rect x="36" y="36" width="1008" height="1848" rx="48" fill="url(#bg)" />
+  <ellipse cx="540" cy="560" rx="420" ry="640" fill="url(#glow)" />
+
+  <circle cx="220" cy="360" r="90" fill="#BAE6FD" fill-opacity="0.7" />
+  <circle cx="850" cy="1280" r="180" fill="#67E8F9" fill-opacity="0.25" />
+  <circle cx="360" cy="1540" r="120" fill="#A7F3D0" fill-opacity="0.35" />
+
+  <text x="540" y="880" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="112" font-weight="700" text-anchor="middle">Vertical Slide</text>
+  <text x="540" y="980" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="52" text-anchor="middle">Mobile Fullscreen Example</text>
+  <text x="540" y="1060" fill="#CCFBF1" font-family="Arial, sans-serif" font-size="42" text-anchor="middle">SyncSlide MVP</text>
+</svg>
